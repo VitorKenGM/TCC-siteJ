@@ -263,7 +263,7 @@ text-align: center;
 			#apadrinho{
 				z-index: 1;
 		opacity: 1;
-		background-image: url('images/parapadrinho.png');
+		background-image: url('../images/parapadrinho.png');
 		background-repeat: no-repeat;
 		background-position: 50% 0;
 		background-size: cover;
@@ -293,7 +293,7 @@ text-align: center;
 	
 			#apadrinho{
 				z-index: 1;
-		background-image: url("images/padrinheresponsivo.png");
+		background-image: url("../images/padrinheresponsivo.png");
 		background-repeat: no-repeat;
 		background-position: 50% 0;
 		background-size: cover;
@@ -316,6 +316,15 @@ text-align: center;
        
 			h3{
 				font-size: 100000px;
+			}
+			
+			#apadrinho{
+				z-index: 1;
+		background-image: url("../images/padrinheresponsivo.png");
+		background-repeat: no-repeat;
+		background-position: 50% 0;
+		background-size: cover;
+		color: black;
 			}
 
 		}

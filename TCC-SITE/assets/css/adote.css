@@ -218,9 +218,6 @@ text-align: center;
 		margin-bottom: 2em;
 	}
 
-	h5, h6{
-		text-align: center;
-	}
 
 /* Container */
 
@@ -275,11 +272,14 @@ text-align: center;
 		background-position: 100% ;
 		background-size: cover;
 		color: black;
-
 			}
 
 			#main-wrapper{
 				overflow-wrap: normal;
+			  }
+			  #content{
+				margin-left: 15%;
+				margin-bottom: 15%;
 			  }
 		}
 
@@ -320,6 +320,10 @@ text-align: center;
 				padding-left: 5px;
 				overflow-wrap: break-word;
 			}
+			#content{
+				margin-left: 25%;
+				margin-bottom: 15%;
+			  }
 		}
 
 		@media screen and (max-width: 736px) {
@@ -357,10 +361,23 @@ text-align: center;
 		padding-left: 5px;
 		overflow-wrap:break-word;
 	   }
+	   #content{
+		margin-left: 20%;
+		margin-bottom: 15%;
+	  }
 
-	   .textos{
-		margin-left: 10px;
-	   }
+		}
+		@media screen and (max-width:600px){
+			#content{
+				margin-left: 20%;
+				margin-bottom: 15%;
+			  }
+		}
+		@media screen and (max-width:325px){
+			#content{
+				margin-left: 20%;
+				margin-bottom: 15%;
+			  }
 		}
 
 /* Row */
@@ -2432,7 +2449,7 @@ text-align: center;
 				margin-bottom: 0 !important;
 			}
 
-				#content > :last-child {
+			contentcontent > :last-child {
 					margin-bottom: 0 !important;
 				}
 
@@ -2855,4 +2872,36 @@ text-align: center;
 
 .descetx{
   padding-bottom:35px ;
+}
+
+@media screen and (max-width: 1199px) {
+
+	#some{
+		display: none;
+	}
+
+	.textos{
+		text-align: center;
+		width: 100%;
+		color: black;
+		opacity: 1;
+	}
+
+	.saidai{
+	display: none;
+	}
+
+	#adote{
+		z-index: 1;
+opacity: 1;
+background-image: url('/images/adotereponsivo.png');
+background-repeat: no-repeat;
+background-position: 100% ;
+background-size: cover;
+color: black;
+	}
+
+	#main-wrapper{
+		overflow-wrap: normal;
+	  }
 }

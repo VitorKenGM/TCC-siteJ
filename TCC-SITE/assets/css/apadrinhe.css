@@ -293,7 +293,7 @@ text-align: center;
 	
 			#apadrinho{
 				z-index: 1;
-		background-image: url("/images/padrinheresponsivo.png");
+		background-image: url("images/padrinheresponsivo.png");
 		background-repeat: no-repeat;
 		background-position: 50% 0;
 		background-size: cover;

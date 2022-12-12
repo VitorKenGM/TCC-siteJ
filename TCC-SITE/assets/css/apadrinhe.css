@@ -134,6 +134,10 @@ h2{
     text-align: center;
 }
 
+h5, h6{
+	text-align: center;
+}
+
 .p{
 text-align: center;
 }
@@ -259,16 +263,12 @@ text-align: center;
 			#apadrinho{
 				z-index: 1;
 		opacity: 1;
-		background-image: url('/images/padrinheresponsivo.png');
+		background-image: url('images/parapadrinho.png');
 		background-repeat: no-repeat;
 		background-position: 50% 0;
 		background-size: cover;
 		color: black;
 			}
-			#content{
-				margin-left: 25%;
-				margin-bottom: 15%;
-			  }
 		}
 
 		@media screen and (max-width: 980px) {
@@ -305,24 +305,21 @@ text-align: center;
 				padding-left: 5px;
 				overflow-wrap:break-word;
 			   }
-			   #content{
-				margin-left: 23%;
-				margin-bottom: 15%;
-			  }
 
 		}
-		@media screen and (max-width:600px){
-			#content{
-				margin-left: 20%;
-				margin-bottom: 15%;
-			  }
+
+		@media screen and (max-width: 736px) {
+
+			.container {
+				width: 100%;
+			}
+       
+			h3{
+				font-size: 100000px;
+			}
+
 		}
-		@media screen and (max-width:375px){
-			#content{
-				margin-left: 20%;
-				margin-bottom: 15%;
-			  }
-		}
+
 	
 /* Row */
 

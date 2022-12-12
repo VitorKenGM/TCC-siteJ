@@ -221,7 +221,7 @@ input, select, textarea {
 			.container {
 				width: 90%;
 			}
-			
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -229,6 +229,48 @@ input, select, textarea {
 			.container {
 				width: 100%;
 			}
+
+			#tele{
+				margin-right: 60%;
+			}
+			
+			#email{
+				margin-right: 60%;
+			}
+			
+			#cidade{
+			margin-right: 70%;
+			}
+			  
+			#sbnn{
+				margin-right: 60%;
+			}
+			
+			#nome{
+				padding-right: 10000%;
+			}
+			
+			/* Footer */
+			
+			#textofim{
+				text-align: center;
+				padding: 4em 0 0 0;
+			}
+			
+			.formulario{
+				margin-left: 0;
+			}
+			
+			.ffff{
+				background-color: #f5edeb;
+				box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 5%);
+			
+			}
+			
+			.logofooter{
+				text-align: center;
+			}
+			
 
 		}
 
@@ -1515,9 +1557,12 @@ input, select, textarea {
 
 	form input[type="text"],
 	form input[type="email"],
-	form input[type="password"] {
+	form input[type="password"], 
+	form input[type="number"]
+	{
 		line-height: 3em;
 		padding: 0 1em;
+		padding-right: 150px;
 	}
 
 	form select {
@@ -2224,7 +2269,7 @@ input, select, textarea {
 			input[type="reset"],
 			button,
 			.button {
-				width: 40%;
+				width: 100%;
 				text-align: center;
 				font-size: 1.35em;
 				padding: 0.85em 0 !important;
@@ -2543,7 +2588,7 @@ input, select, textarea {
 			input[type="reset"],
 			button,
 			.button {
-				width: 40%;
+				width: 100%;
 				text-align: center;
 				font-size: 1.25em !important;
 				padding: 0.65em 0 !important;
@@ -2674,13 +2719,6 @@ input, select, textarea {
 
 /*  Form*/
 
-        .formulario{
-
-       padding-top: 55px;
-       margin-left: 10px;
-       margin-right: 120px;
-        }
-
      .iniciotext{
         text-align: center;
         background-color: #f5edeb;
@@ -2738,25 +2776,7 @@ a{
     text-decoration: none;
 }
 
-#tele{
-	margin-right: 60%;
-}
 
-#email{
-	margin-right: 60%;
-}
-
-#cidade{
-margin-right: 70%;
-}
-  
-#sbnn{
-	margin-right: 60%;
-}
-
-#nome{
-	margin-right: 60%;
-}
 
 /* Footer */
 
@@ -2765,157 +2785,8 @@ margin-right: 70%;
 	padding: 4em 0 0 0;
 }
 
-.formulario{
-	margin-left: 40%;
-
-}
-
 .botao{
-	margin-right: 75%;
-}
-
-.ffff{
-	background-color: #f5edeb;
-	box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 5%);
-
-}
-
-.logofooter{
 	text-align: center;
 }
 
-@media screen and (max-width:1250px){
-	#tele{
-		margin-right: 50%;
-	}
-	
-	#email{
-		margin-right: 50%;
-	}
-	
-	#cidade{
-	margin-right: 60%;
-	}
-	  
-	#sbnn{
-		margin-right: 50%;
-	}
-	
-	#nome{
-		margin-right: 50%;
-	}
-}
 
-@media screen and (max-width:1080px){
-	#tele{
-		margin-right: 40%;
-	}
-	
-	#email{
-		margin-right: 40%;
-	}
-	
-	#cidade{
-	margin-right: 50%;
-	}
-	  
-	#sbnn{
-		margin-right: 40%;
-	}
-	
-	#nome{
-		margin-right: 40%;
-	}
-}
-
-@media screen and (max-width:980px){
-	#tele{
-		margin-right: 30%;
-	}
-	
-	#email{
-		margin-right: 30%;
-	}
-	
-	#cidade{
-	margin-right: 40%;
-	}
-	  
-	#sbnn{
-		margin-right: 30%;
-	}
-	
-	#nome{
-		margin-right: 30%;
-	}
-}
-
-@media screen and (max-width:736px){
-	#tele{
-		margin-right: 20%;
-	}
-	
-	#email{
-		margin-right: 20%;
-	}
-	
-	#cidade{
-	margin-right: 30%;
-	}
-	  
-	#sbnn{
-		margin-right: 20%;
-	}
-	
-	#nome{
-		margin-right: 20%;
-	}
-}
-
-@media screen and (max-width:500px){
-	#tele{
-		margin-right: 10%;
-	}
-	
-	#email{
-		margin-right: 10%;
-	}
-	
-	#cidade{
-	margin-right: 20%;
-	}
-	  
-	#sbnn{
-		margin-right: 10%;
-	}
-	
-	#nome{
-		margin-right: 10%;
-	}
-}
-
-@media screen and (max-width:300px){
-	#tele{
-		margin-right: 5%;
-	}
-	
-	#email{
-		margin-right: 5%;
-	}
-	
-	#cidade{
-	margin-right: 10%;
-	}
-	  
-	#sbnn{
-		margin-right: 5%;
-	}
-	
-	#nome{
-		margin-right: 5%;
-	}
-}
-
-.botao{
-	margin-left:30px;
-}
